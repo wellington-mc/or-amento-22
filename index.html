@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orçador de Supermercado</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <button id="products-btn">Produtos para Orçar</button>
+            <button id="dashboard-btn">Dashboard</button>
+            <div id="saved-supermarkets"></div>
+        </div>
+        <div class="main">
+            <div id="supermarket-input-container" class="hidden">
+                <input type="text" id="supermarket-name" placeholder="Nome do Supermercado">
+                <button id="fill-products-btn" disabled>Preencher</button>
+            </div>
+            <div id="products-container" class="hidden">
+                <!-- Lista de produtos será preenchida dinamicamente -->
+            </div>
+            <div id="dashboard-container" class="hidden">
+                <!-- Dashboard será preenchido dinamicamente -->
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</body>
+</html>
